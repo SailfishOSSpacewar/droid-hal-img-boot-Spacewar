@@ -1,4 +1,4 @@
-%define device fp5
+%define device Spacewar
 
 %define mkbootimg_cmd mkbootimg --cmdline 'androidboot.selinux=permissive audit=0' --header_version 3 --os_version 14.0.0 --os_patch_level 2024-10 --kernel %{kernel} --ramdisk %{initrd} --output
 
